@@ -100,3 +100,20 @@ a {
     margin-bottom: 15px;
     text-align: center;
 }
+.direction {
+    padding: 100px 0;
+}
+.direction__inner {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 32px;
+}
+direction__img {
+    display: block;
+}
+.description__text {
+    font-size: 16px;
+    border: 1px solid #d9d9d9;
+    border-top: none;
+    padding: 10px 19px 14px;
+}
